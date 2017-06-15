@@ -1,0 +1,595 @@
+.padd{
+    padding: 0px 15rem;
+}
+#item1{
+	background-image: url('../img/img1.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#item2{
+	background-image: url('../img/img2.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#item3{
+	background-image: url('../img/img1.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#item4{
+	background-image: url('../img/img2.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#item5{
+	background-image: url('../img/img1.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#item6{
+	background-image: url('../img/img2.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#item7{
+	background-image: url('../img/img1.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#item8{
+	background-image: url('../img/img2.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/* utils*/
+.h4{
+	height: 486px !important;
+}
+.mg-b{
+    margin-bottom: 2rem;
+}
+.mg-t{
+    margin-top: 4rem;
+}
+.h-section{
+    height: 560px !important;
+}
+.b0{
+	border: 0 !important;
+}
+.relative{
+	position: relative;
+}
+.p45{
+	padding: 45px;
+}
+.row{
+		width: 100%;
+		height: 50%;
+}
+.file{
+	height: 100%;
+	width: 49%;
+	display: inline-block;
+}	
+.w40{
+	width: 39%;
+	height: 100%;
+	display: inline-block;
+}
+.w40 img{
+	width: 100%;
+	height: 150px;
+}
+.w60{
+	width: 60%;
+	height: 100%;
+	display: inline-block;
+}
+.w60 img{
+	width: 100%;
+	height: 150px;
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+	.manki-container{
+		width: 100% !important;
+  		height: 2956px !important;
+	}
+	.manki-container .manki-banner{
+		width: 100%;
+		background-image: url("../img/banner1.jpg");
+		height: 620px;
+		background-repeat: no-repeat !important;
+	    background-size: cover !important;
+	    background-position: 50% 50% !important;
+	}
+	.manki-container .section{
+		width: 100%;
+		height: 620px;
+		text-align: center;
+	}
+	.manki-container .section .row{
+		width: 100%;
+		height: 50%;
+	}
+	.manki-container .section .row-100{
+		width: 100%;
+		height: 100%;
+	}
+	.manki-container .section .row .title{
+	    width: 100%;
+	    height: 38px;
+	    font-size: 1.5rem;
+	    font-weight: 300;
+	    letter-spacing: 0.9px;
+	    text-align: center;
+	    color: #3d3d3d;
+	}
+	.manki-container .section .row hr{
+	        margin: 0;
+		    width: 72px;
+		    margin-left: 47%;
+		    border: solid 0.5px #ff480c;
+	}
+	.manki-container .section .row .cont{
+	    width: 100%;
+	    position: relative;
+	    height: 87px;
+	}
+	.manki-container .section .row .cont .manki-body{
+		width: 277px;
+	    height: 49.5px;
+	    font-family: SourceSansPro-It;
+	    font-size: 0.8rem;
+	    font-weight: 300;
+	    letter-spacing: 0.4px;
+	    text-align: center;
+	    position: absolute;
+	    left: 50%;
+	    top: 50%;
+	    transform: translate(-50%, -50%);
+	    -webkit-transform: translate(-50%, -50%);
+	    color: #3d3d3d;
+	}
+	.manki-container .section .row .item-six{
+	    width: 15%;
+	    margin: 3px;
+	    height: 172px;
+	    display: inline-block;
+	    position: relative;
+	}
+	.manki-container .section .row .box{
+		width: 100%;
+		height: 90%;
+		border-bottom:solid 0.5px #c2c2c2;
+		margin-bottom: 7.5rem;
+	}
+	.manki-container .section .row .box .item{
+		width: 24%;
+	    max-width: 216px;
+	    margin: 3px;
+	    min-width: 215px;
+	    height: 276px;
+	    max-height: 276px;
+	    display: inline-block;
+	    position: relative;
+	}
+	.manki-container .section .row .box .item .description{
+		position: absolute;
+	    bottom: -3rem;
+	    font-size: 0.8rem;
+	    text-align: left;
+	}
+	.manki-container .section .row .manki-header{
+		width: 100%;
+		height: 10%;
+	}
+	.manki-container .section .row .manki-header h6{
+		text-align: left;
+	}
+	.manki-container .section .row-mid{
+		width: 100%;
+		height: 25%;
+	}
+	.manki-container .section .row-70{
+		width: 100%;
+		height: 70%;	
+	}
+	.manki-container .section .row-70 .box{
+		width: 100%;
+		height: 100%;
+		border-bottom:solid 0.5px #c2c2c2;
+		margin-bottom: 7.5rem;
+	}
+	.manki-container .section .row-70 .box .item{
+		width: 24%;
+	    max-width: 216px;
+	    margin: 3px;
+	    min-width: 215px;
+	    height: 276px;
+	    max-height: 276px;
+	    display: inline-block;
+	    position: relative;
+	}
+	.manki-container .section .row-70 .box .item .description{
+		position: absolute;
+	    bottom: -3rem;
+	    font-size: 0.8rem;
+	    text-align: left;
+	}
+	.manki-container .section .row-70 .manki-header{
+		width: 100%;
+		height: 10%;
+	}
+	.manki-container .section .row-70 .manki-header h6{
+		text-align: left;
+	}
+	.manki-container .section .manki-head{
+		width: 100%;
+	}
+	.manki-container .section .row-mid .manki-head h1{
+		  width: 100%;
+		  margin-top: 32px;
+		  margin-bottom: 0px;
+		  height: 17px;
+		  font-family: 'Source Sans Pro', sans-serif;
+		  font-size: 17.5px;
+		  font-weight: 300;
+		  letter-spacing: 0.9px;
+		  text-align: center;
+		  color: #3d3d3d;
+	}
+	.manki-container .section .manki-head hr.line{
+    	width: 10px;
+	    width: 60px;
+	    height: 0.5px;
+	    background-color: #ff480c;
+	    border: solid 0.5px #ff480c;
+	}
+	.manki-container .section .manki-head p{
+	    width: 665px;
+    	margin-left: 350px;
+	}
+	.manki-container .manki-banner img{
+		width: 100%;
+		height: 620px;
+	}
+	.manki-container .manki-text{
+	    z-index: 1;
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    top: 35%;
+	    user-select: none;
+	}
+	.manki-container .manki-text h1{
+		color: #fff;
+		text-align: center;
+	    margin-top: -15px !important;
+	    margin-bottom: 0px !important;
+	    width: 100%;
+    	font-size: 80px !important;
+    	letter-spacing: 7px;
+    	text-transform: uppercase;
+	}
+	.manki-container .manki-text h5{
+		color: #fff;
+		text-align: center;
+	    margin-top: -5px !important;
+	    margin-bottom: 0px !important;
+	    width: 100%;
+	    text-transform: uppercase;
+	}
+	.manki-container-button{
+		width: 100%;
+		text-align: center;
+	}
+	.manki-container-button .manki-btn-signup{
+	    text-transform: uppercase;
+	    width: 145.5px;
+	    height: 33.5px;
+	    text-align: center;
+	    color: white;
+	    margin-top: 15px;
+	    border-radius: 2.5px;
+	    background-color: #ff480c;
+	    padding: 0;
+	    font-size: 12px;
+	}
+	.manki-a-logo{
+		display: table;
+	    height: 100%;
+	    line-height: 1rem;
+	    color: #ff480c;
+	}
+	.manki-m-left{
+		margin-left: 100px;
+	}
+	.manki-a-logo span{
+		display: table-cell;
+	    font-size: 27px;
+	    height: 100%;
+	    padding: 0 2px;
+	    vertical-align: middle;
+	}
+	.manki-a-logo span img{
+		width: 40px;
+    	height: 34px;
+	}
+	.navegator{
+		/*background: white !important;*/
+		color: black !important;
+		background: #FFF !important;
+	    padding: 0 30px;
+	    width: 100%;
+	    box-sizing: border-box;
+	}
+	.navegator .manki-nav{
+	    width: 1200px;
+	    /* margin-top: 10px; */
+	    height: 35.5px;
+	    position: absolute;
+	    left: 50%;
+	    top: 50%;
+	    transform: translate(-50%, -50%);
+	    -webkit-transform: translate(-50%, -50%);
+	    /* text-align: center; */
+	}
+	.navegator ul.manki-nav li{
+		height: 100%;
+	}
+	.navegator ul.manki-nav li a{
+		height: 100%;
+		color:black;
+		line-height: 35px;
+	}
+	.f-black{
+		color: black;
+	}
+	.manki-button{
+	  width: 77.5px;
+	  height: 16.5px;
+	  border-radius: 2.5px;
+	  background-color: #ff480c;
+	}
+	.manki-btn-login{
+		width: 140px !important;
+	    font-size: 15px !important;	
+	    padding: 1px 7px !important;
+	    color: white !important;
+	}
+	.lg{
+
+	}
+}
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+	.manki-container{
+		width: 100% !important;
+  		height: 2956px !important;
+	}
+	.manki-container .manki-banner{
+		width: 100%;
+		background-image: url("../img/banner1.jpg");
+		height: 620px;
+		background-repeat: no-repeat !important;
+	    background-size: cover !important;
+	    background-position: 50% 50% !important;
+	}
+	.manki-container .manki-banner img{
+		width: 100%;
+		height: 620px;
+	}
+	.manki-container .manki-text{
+	    z-index: 1;
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    top: 35%;
+	    user-select: none;
+	}
+	.manki-container .manki-text h1{
+		color: #fff;
+		text-align: center;
+	    margin-top: -15px !important;
+	    margin-bottom: 0px !important;
+	    width: 100%;
+    	font-size: 80px !important;
+    	letter-spacing: 7px;
+    	text-transform: uppercase;
+	}
+	.manki-container .manki-text h5{
+		color: #fff;
+		text-align: center;
+	    margin-top: -5px !important;
+	    margin-bottom: 0px !important;
+	    width: 100%;
+	    text-transform: uppercase;
+	}
+	.manki-container-button{
+		width: 100%;
+		text-align: center;
+	}
+	.manki-container-button .manki-btn-signup{
+	    text-transform: uppercase;
+	    width: 145.5px;
+	    height: 33.5px;
+	    text-align: center;
+	    color: white;
+	    margin-top: 15px;
+	    border-radius: 2.5px;
+	    background-color: #ff480c;
+	    padding: 0;
+	    font-size: 12px;
+	}
+	.manki-a-logo{
+		display: table;
+	    height: 100%;
+	    line-height: 1rem;
+	    color: #ff480c;
+	}
+	.manki-m-left{
+		margin-left: 100px;
+	}
+	.manki-a-logo span{
+		display: table-cell;
+	    font-size: 27px;
+	    height: 100%;
+	    padding: 0 2px;
+	    vertical-align: middle;
+	}
+	.manki-a-logo span img{
+		width: 40px;
+    	height: 34px;
+	}
+	.navegator{
+		/*background: white !important;*/
+		color: black !important;
+		background: #FFF !important;
+	    padding: 0 30px;
+	    width: 100%;
+	    box-sizing: border-box;
+	}
+	.navegator .manki-nav{
+	    width: 1200px;
+	    /* margin-top: 10px; */
+	    height: 35.5px;
+	    position: absolute;
+	    left: 50%;
+	    top: 50%;
+	    transform: translate(-50%, -50%);
+	    -webkit-transform: translate(-50%, -50%);
+	    /* text-align: center; */
+	}
+	.navegator ul.manki-nav li{
+		height: 100%;
+	}
+	.navegator ul.manki-nav li a{
+		height: 100%;
+		color:black;
+		line-height: 35px;
+	}
+	.f-black{
+		color: black;
+	}
+	.manki-button{
+	  width: 77.5px;
+	  height: 16.5px;
+	  border-radius: 2.5px;
+	  background-color: #ff480c;
+	}
+	.manki-btn-login{
+		width: 140px !important;
+	    font-size: 15px !important;	
+	    padding: 1px 7px !important;
+	    color: white !important;
+	}
+	.lg{
+
+	}
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
